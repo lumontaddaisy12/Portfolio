@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+  }
+  .main {
+    height: 1150px;
+    width: 800px;
+    background-color: #e8e9eb;
+    box-shadow: 5px 7px 15px 5px #4d4c4c7c;
+    margin: 20px auto;
+  }
+  .firstcontainer {
+    margin: 0;
+    padding: 0;
+    height: 20vh;
+    background-color: #444444;
+  }
+  .photo {
+    display: flex;
+    width: auto;
+    height: 260;
+    margin: 0px 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .profpic {
+    width: 200;
+    border: 10px solid #000000;
+    border-radius: 50%;
+  }
+  .name {
+    text-align: center;
+  }
+  .name h2 {
+    font-weight: 900;
+    font-size: 40;
+    letter-spacing: 1.5px;
+  }
+  .name span {
+    font-weight: 700;
+  }
+  .name h3 {
+    opacity: 0.7;
+  }
+  /************************LEFTTT CONTAINER*************/
+  .left-container {
+    width: 45%;
+    float: left;
+  }
+  /************************CONTACTTT SECTIOONN*************/
+  .secondsection {
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .head {
+    font-size: 20;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #cccdc6;
+    padding: 10px 6px;
+    letter-spacing: 1.5;
+    border-bottom: 2px solid #746d69;
+  }
+  .contacts {
+    font-family: "Lexend", sans-serif;
+    padding: 12px 0px;
+    opacity: 0.8;
+    font-size: 13px;
+    padding-left: 5px;
+  }
+  
+  .contact-contents {
+    font-variant: small;
+    padding-left: 5px;
+  }
+  .contact-contents a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+  }
+  .contact-contents a:hover {
+    opacity: 0.5;
+  }
+  /************************SKILL SECTIOONN*************/
+  .third-container {
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+  .skills-content {
+    padding-left: 20px;
+  }
+  .spec-skills {
+    opacity: 0.8;
+    padding-bottom: 10px;
+    font-size: 13px;
+  }
+  /************************EDUCATIONN SECTIOONN*************/
+  .fourth-container {
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+  .education-content {
+    padding-left: 20px;
+  }
+  .stage {
+    font-size: 13px;
+    font-weight: 550;
+    padding-bottom: 9px;
+  }
+  .school {
+    font-size: 13px;
+    list-style-type: none;
+    opacity: 0.8;
+    padding-bottom: 5px;
+  }
+  .year {
+    font-size: 13px;
+    list-style-type: none;
+    opacity: 0.8;
+    padding-bottom: 12px;
+  }
+  /************************RIGHT CONTAINER*************/
+  .right-container {
+    float: right;
+    width: 45%;
+    margin-top: 60px;
+    margin-right: 30px;
+  }
+  /************************ABOUT SECTIOONN*************/
+  .about-contents {
+    font-size: 15px;
+    opacity: 0.8;
+    text-align: justify;
+    line-height: 1.8;
+    padding-bottom: 39px;
+  }
+  /************************ACHIEVEMENT SECTIOONN*************/
+  .exp-conts {
+    padding: 12px 5px;
+  }
+  .spec-exper {
+    opacity: 0.7;
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-left: 8px;
+    font-weight: 550;
+  }
